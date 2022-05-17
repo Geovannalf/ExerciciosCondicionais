@@ -7,5 +7,8 @@ fun main(args: Array<String>) {
         println("Categoria Juvenil")
     }else if(idade in 18..25){
         println("Categoria Adulto")
+    } else {
+        println("Sem categoria")
+
     }
 }
